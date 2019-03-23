@@ -5,4 +5,4 @@ Build using bootstrap, js for viewing the bank holidays of the selected month an
 #Populate calender month vise and will highlight the days which have holidays and n hovering over the date it willshow the details about the holiday
 #Current date will have larger font-size
 #user can toggle the month with the help of two navigation buttons which are on the sides of the div showing year and month
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.PNG)
