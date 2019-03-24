@@ -3,7 +3,7 @@
 <head>
 	<title>Welcome</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 	<script src="http://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -13,7 +13,6 @@
 	<center><h2>Calendr</h2></center>
 
 	<div class="container py-3">
-		
 		<div class="row py-2">
 			<div class="col-md-2 text-right">
 			    <a href="#" id="previous">
@@ -24,12 +23,12 @@
 				
 				<div class="row">
 					<div class="col-md-5">
-						<h4 id="year" style="color: white;">2019</h4>
+						<h4 id="year" style="color: white;"></h4>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-5">
-						<h1 id="month" style="color: white;">jANUARY</h1>
+						<h1 id="month" style="color: white;"></h1>
 					</div>
 				</div>
 			</div>
@@ -39,6 +38,7 @@
 			    </a>
 			  </div>
 		</div>
+
 		<div class="row">			
 			<div class="col-md-8 mx-auto" style="font-family: 'Sofia'; ">
 				<table class="table text-center table-borderless polaroid" style="border-collapse: separate;">
@@ -58,7 +58,9 @@
 				</table>				
 			</div>
 		</div>
+
 	</div>
+
 </body>
 <footer class="text-center">Created by <b>S Amaldev</b></footer>
 
@@ -95,6 +97,7 @@
 	  -webkit-transform: rotate(45deg);
 	  transform: rotate(45deg);
 	}
+	/*////////////////////*/
 
 	 .current_day{
 	 	font-weight: bold;
@@ -115,7 +118,7 @@
 
 	.btn-grad {background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%); color: white;}
 
-	 .polaroid {
+	.polaroid {
 	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
@@ -123,5 +126,6 @@
 		background-color:#BB8FCE;
 	}
 </style>
+<!-- custom script -->
 <script src="./Calendr.js"></script>
 </html>
